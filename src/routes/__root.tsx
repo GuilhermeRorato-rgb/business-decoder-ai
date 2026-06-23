@@ -83,13 +83,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Plataforma educacional para aprender mercado financeiro analisando empresas reais como Oncoclínicas, Brava Energia, DASA, Engie, Cosan e mais.",
       },
-      { property: "og:title", content: "Company Decoder" },
+      { property: "og:title", content: "Company Decoder — Entenda qualquer empresa como um analista" },
       {
         property: "og:description",
         content: "Entenda qualquer empresa como um analista profissional.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Company Decoder — Entenda qualquer empresa como um analista" },
+      { name: "description", content: "Company Decoder educates users on how companies function using real-world financial data and concepts." },
+      { property: "og:description", content: "Company Decoder educates users on how companies function using real-world financial data and concepts." },
+      { name: "twitter:description", content: "Company Decoder educates users on how companies function using real-world financial data and concepts." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/68144492-ec53-4947-aa85-1d7b055f570a/id-preview-e8f4bbaa--649ba0d5-7809-4a96-87fd-dad443702d9e.lovable.app-1782183858888.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/68144492-ec53-4947-aa85-1d7b055f570a/id-preview-e8f4bbaa--649ba0d5-7809-4a96-87fd-dad443702d9e.lovable.app-1782183858888.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
