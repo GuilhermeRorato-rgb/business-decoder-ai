@@ -345,7 +345,7 @@ const TEMPLATES: Partial<Record<string, Template>> = {
 
 function fallbackTemplate(c: Company, concept: Concept): Template {
   return {
-    application: `Aplicando em ${c.name} (${c.ticker}): ${concept.short}`,
+    application: () => `Aplicando em ${c.name} (${c.ticker}): ${concept.short}`,
     impact: {
       receita: "A discutir com base no caso específico.",
       ebitda: "A discutir com base no caso específico.",
