@@ -195,7 +195,7 @@ const TEMPLATES: Partial<Record<string, Template>> = {
     application: (c) =>
       `Em ${c.name}, diluição mede quanto cada acionista existente fica menor após nova emissão. Se o novo capital cria valor acima do custo, o efeito líquido pode ser positivo.`,
     impact: {},
-    shareholders: "Diluição é "ok" se o uso do dinheiro tiver TIR > custo de equity.",
+    shareholders: 'Diluição é aceitável se o uso do dinheiro tiver TIR > custo de equity.',
     creditors: "Indiferente diretamente — beneficiado pela menor alavancagem.",
   },
   "holding-discount": {
