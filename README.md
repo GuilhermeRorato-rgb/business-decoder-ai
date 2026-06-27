@@ -1,6 +1,6 @@
 # Business Decoder AI
 
-![Business Decoder AI](imagem.png)
+![Business Decoder AI](image.png)
 
 An AI powered platform that helps investors understand companies through structured business, financial and strategic analysis.
 
