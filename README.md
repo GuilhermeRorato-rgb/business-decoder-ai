@@ -12,3 +12,15 @@ An AI powered platform that helps investors understand companies through structu
 * Industry and competitive analysis
 * Investment insights
 * AI assisted learning
+
+## Live Demo
+
+🌐 https://business-decoder-ai.lovable.app
+
+## Tech Stack
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Supabase
